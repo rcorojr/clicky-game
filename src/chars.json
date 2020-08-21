@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "name": "Rocko",
+      "image":
+        "https://vignette.wikia.nocookie.net/rockosmodernlife/images/5/5e/Rocko_Wallaby.png/revision/latest?cb=20130920192204",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "Heffer",
+      "image":
+        "https://vignette.wikia.nocookie.net/international-entertainment-project/images/4/42/Heffer_Wolfe_%28Rocko%27s_Modern_Life-_Static_Cling%29.png/revision/latest/scale-to-width-down/340?cb=20190819115002",
+        "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Peter",
+      "image":
+        "https://i.redd.it/dquyl9wyjoz01.png",
+        "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Filburt",
+      "image":
+        "https://i.pinimg.com/564x/da/31/26/da31260961b83c435c434ae954ebdb59.jpg",
+        "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Beverly Bighead",
+      "image":
+        "https://vignette.wikia.nocookie.net/rockosmodernlife/images/d/d7/Bev_Bighead.png/revision/latest?cb=20191228192923",
+        "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "Ed Bighead",
+      "image":
+        "https://upload.wikimedia.org/wikipedia/en/1/1e/Ed_Bighead.png",
+        "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Spunky",
+      "image":
+        "https://ih1.redbubble.net/image.889844127.5016/fposter,small,wall_texture,product,750x1000.jpg",
+        "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "Sheila",
+      "image":
+        "https://vignette.wikia.nocookie.net/rockosmodernlife/images/5/54/Sheila.png/revision/latest/top-crop/width/360/height/450?cb=20120207222223",
+        "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "Dr. Hutchison",
+      "image":
+        "https://vignette.wikia.nocookie.net/rockosmodernlife/images/6/64/Hutchinson.png/revision/latest/top-crop/width/360/height/450?cb=20171026103513",
+        "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Really Really Big Man",
+      "image":
+        "https://nickjr-intl.mtvnimages.com/uri/mgid:arc:content:nickelodeon.com.au:78397a3e-ed1a-4603-8b07-0dbef0d64d10?stage=staging&ep=nickelodeon.com.au",
+        "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "Grandpa Wolfe",
+      "image":
+        "https://thetwinfactor.files.wordpress.com/2017/01/grandpa_wolfe.png?w=600",
+        "clicked": false
+    },
+    {
+      "id": 12,
+      "name": "Mr. Dupette",
+      "image":
+        "https://vignette.wikia.nocookie.net/rockosmodernlife/images/6/6e/Mr._Dupette.png/revision/latest/top-crop/width/360/height/450?cb=20120208194243",
+        "clicked": false
+    }
+]
