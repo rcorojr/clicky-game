@@ -19,31 +19,14 @@ class App extends Component {
     };
   }
 
-
-
-  /*
-   *  ----------------------------------------------------------------------------------
-   *
-   *  Functions for game logic
-   *
-   *  ----------------------------------------------------------------------------------
-   */
-
-  // Main click handler function
   handleSaveClick = id => {
-    // Variable to hold the chars state.
     const charChar = this.state.chars;
-    // Search through character chars to find the one that matches the clicked id.
     const tileClicked = charChar.filter(tile => tile.id === id);
 
-    // If the tile isn't clicked...
     if (!tileClicked[0].clicked) {
-      // ...set it to now be clicked
       tileClicked[0].clicked = true;
-      // ...call this function to register the correct guess
       this.handleCorrectClick();
 
-      // ... randomize character chars
       this.randomizeCharacters(charChar);
 
       this.setState({ charChar });
@@ -52,14 +35,15 @@ class App extends Component {
     }
   };
 
-  // Function to randomize the characters
+  //Randomize!
   randomizeCharacters = characters => {
     characters.sort((a, b) => {
       return 0.5 - Math.random();
     });
   };
 
-  // Handler for correct guesses/clicks
+  //Handle click events true/false
+
   handleCorrectClick = () => {
     this.setState({ isGuessCorrect: true });
     if (this.state.score + 1 > this.state.topScore) {
@@ -80,7 +64,6 @@ class App extends Component {
     }
   };
 
-  // Handler for incorrect guesses/clicks
   handleIncorrectClick = () => {
     this.setState({
       message: "INCORRECT. PLAY AGAIN?",
@@ -89,7 +72,6 @@ class App extends Component {
     this.resetGame();
   };
 
-  // Resets the game
   resetGame = id => {
     const charChar = this.state.chars;
     for (let i = 0; i < charChar.length; i++) {
@@ -98,13 +80,7 @@ class App extends Component {
     this.setState({ score: 0 });
   };
 
-  /*
-   *  ----------------------------------------------------------------------------------
-   *
-   *  Render and Return
-   *
-   *  ----------------------------------------------------------------------------------
-   */
+
 
   // Render the App component on the page
   render() {
