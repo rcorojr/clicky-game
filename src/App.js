@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import chars from "./chars.json";
 
+
 class App extends Component {
   constructor() {
     super();
